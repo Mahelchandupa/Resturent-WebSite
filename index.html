@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturent</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><i class="fas fa-utensils"></i>resto.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <!--  search form  -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here...." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+
+    <!--   home section start    -->
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maxime culpa harum?</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="https://img.freepik.com/premium-photo/spaghetti-mala-sauce-with-bacon-champignon-mushroom-spicy-dish-chines-sauce-style-decoration-vegetable-topview_71919-1698.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=ais" alt="">
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide slide">
+
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>fried chicken</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maxime culpa harum?</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="https://img.freepik.com/premium-photo/roasted-chicken-white-isolated_220507-7297.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=ais" alt="">
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>hot pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maxime culpa harum?</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="https://img.freepik.com/premium-photo/isolated-pizza-with-mushrooms-olives_219193-8149.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=ais" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+
+        <!--  dishes section -->
+        <section class="dishes" id="dishes">
+
+            <h3 class="sub-heading">our dishes</h3>
+            <h1 class="heading">popular dishes</h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="https://img.freepik.com/free-photo/delicious-cheeseburger_1232-503.jpg?size=626&ext=jpg&ga=GA1.2.1337584067.1684815511&semt=ais" alt="">
+                    <h3>tasty food</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$15.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="https://img.freepik.com/free-photo/tagliatelle-pasta-with-tomatoes-chicken_2829-18003.jpg?w=900&t=st=1686900245~exp=1686900845~hmac=d3ee98cfe2bf8bf59d7b859006616ec8b57748f285cbad443102a299959f3e7a" alt="">
+                    <h3>tasty food</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$15.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="https://img.freepik.com/free-photo/spaghetti-with-shrimp_1339-1346.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=ais" alt="">
+                    <h3>tasty food</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$15.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="https://img.freepik.com/free-photo/delicious-food-white-plate_144627-34682.jpg?size=626&ext=jpg&ga=GA1.2.1337584067.1684815511&semt=ais" alt="">
+                    <h3>tasty food</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$15.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="https://img.freepik.com/free-photo/french-fries_74190-2552.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=ais" alt="">
+                    <h3>tasty food</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$15.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="https://img.freepik.com/free-photo/seafood-spicy-noodles-salad-with-thai-style_74190-4867.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=ais" alt="">
+                    <h3>tasty food</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$15.99</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+        </section>
+
+    
+    <!--  dishes section -->
+    <section class="about" id="about">
+
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">why choose us?</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/top-view-spaghetti-served-plate_23-2148195076.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=ais" alt="">
+            </div>
+
+            <div class="content">
+                <h3>best food in the country</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quos aut enim quod, 
+                    inventore ipsa ullam sunt natus. Mollitia omnis rerum, nihil nesciunt at labore asperiores quia eius 
+                    explicabo voluptate!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A unde dolore quas
+                     dolorum illo enim recusandae molestiae illum modi! Ipsa?</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+     <!--  dishes section -->
+     <section class="menu" id="menu">
+
+        <h3 class="sub-heading">our menu</h3>
+        <h1 class="heading">today's speciality</h1>
+
+        <div class="box-container">
+
+           <div class="box">
+               <div class="image">
+                   <img src="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=sph" alt="">
+                   <a href="#" class="fas fa-heart"></a>
+               </div>
+               <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>delicious food</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, nisi.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$12.99</span>
+               </div>
+           </div>
+
+           <div class="box">
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=sph" alt="">
+                <a href="" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+             <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+             </div>
+             <h3>delicious food</h3>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, nisi.</p>
+             <a href="#" class="btn">add to cart</a>
+             <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=sph" alt="">
+                <a href="" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+             <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+             </div>
+             <h3>delicious food</h3>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, nisi.</p>
+             <a href="#" class="btn">add to cart</a>
+             <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/crispy-fried-chicken-plate-with-salad-carrot_1150-20212.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=sph" alt="">
+                <a href="" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+             <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+             </div>
+             <h3>delicious food</h3>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, nisi.</p>
+             <a href="#" class="btn">add to cart</a>
+             <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/pieces-chicken-fillet-with-mushrooms-stewed-tomato-sauce-with-boiled-broccoli-rice-proper-nutrition-healthy-lifestyle-dietetic-menu-top-view_2829-20015.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=sph" alt="">
+                <a href="" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+             <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+             </div>
+             <h3>delicious food</h3>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, nisi.</p>
+             <a href="#" class="btn">add to cart</a>
+             <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/front-view-burger-fries-plate_23-2148784444.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=sph" alt="">
+                <a href="" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+             <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+             </div>
+             <h3>delicious food</h3>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, nisi.</p>
+             <a href="#" class="btn">add to cart</a>
+             <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/italian-pasta-spaghetti-with-meatballs-parmesan-cheese-black-plate-dark-rustic-wood-background-dinner-slow-food-concept_2829-4639.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=sph" alt="">
+                <a href="" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+             <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+             </div>
+             <h3>delicious food</h3>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, nisi.</p>
+             <a href="#" class="btn">add to cart</a>
+             <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        </div>
+
+     </section>
+
+
+       <!--  review section -->
+    <section class="review" id="review">
+
+        <h3 class="sub-heading">customer's review</h3>
+        <h1 class="heading">what they say</h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=sph" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempore repellendus
+                         aliquam. Qui eaque, repellendus est, at optio labore dicta soluta,
+                          nisi dolores atque veritatis ratione delectus praesentium voluptas
+                         debitis.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=sph" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempore repellendus
+                         aliquam. Qui eaque, repellendus est, at optio labore dicta soluta,
+                          nisi dolores atque veritatis ratione delectus praesentium voluptas
+                         debitis.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="https://img.freepik.com/free-photo/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes_176532-10257.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=sph" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempore repellendus
+                         aliquam. Qui eaque, repellendus est, at optio labore dicta soluta,
+                          nisi dolores atque veritatis ratione delectus praesentium voluptas
+                         debitis.</p>
+                </div>
+
+                
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="https://img.freepik.com/free-photo/portrait-handsome-young-man-with-crossed-arms_176420-15567.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=sph" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempore repellendus
+                         aliquam. Qui eaque, repellendus est, at optio labore dicta soluta,
+                          nisi dolores atque veritatis ratione delectus praesentium voluptas
+                         debitis.</p>
+                </div>
+
+                
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="https://img.freepik.com/free-photo/pretty-self-confident-female-model-with-afro-hair-keeps-hand-raised-smiles-gently-looks-directly-listens-attentively-interlocutor-wears-stylish-velvet-jacket_273609-46286.jpg?size=626&ext=jpg&ga=GA1.1.1337584067.1684815511&semt=sph" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempore repellendus
+                         aliquam. Qui eaque, repellendus est, at optio labore dicta soluta,
+                          nisi dolores atque veritatis ratione delectus praesentium voluptas
+                         debitis.</p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+     <!--  review section -->
+    <section class="order" id="order">
+
+        <h3 class="sub-heading">order now</h3>
+        <h1 class="heading">free and fast</h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your order</span>
+                    <input type="text" placeholder="enter food name">
+                </div>
+                <div class="input">
+                    <span>additional food</span>
+                    <input type="text" placeholder="extra with food">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>how much</span>
+                    <input type="text" placeholder="how many orders">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <button type="submit" value="order now" class="btn">order now</button>
+              
+        </form>
+    
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">srilanaka</a>
+                <a href="#">japan</a>
+                <a href="#">russia</a>
+                <a href="#">USA</a>
+                <a href="#">france</a>
+            </div>
+
+            <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#home">home</a>
+                    <a href="#dishes">dishes</a>
+                    <a href="#about">about</a>
+                    <a href="#menu">menu</a>
+                    <a href="#review">review</a>
+                    <a href="#order">order</a>
+            </div>
+
+            <div class="box">
+                    <h3>contact info</h3>
+                    <a href="#">+123-456-7890</a>
+                    <a href="#">+111-222-3333</a>
+                    <a href="#">resto@gmail.com</a>
+                    <a href="#">restofood@gmail.com</a>
+                    <a href="#">colombo, srilanka - 400104</a>
+            </div>
+
+            <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">twitter</a>
+                    <a href="#">instagram</a>
+                    <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <div class="credit">copyright @ 2023 by <span>mahel chandupa</span></div>
+
+    </section>
+
+
+    <!-- loader part -->
+    <div class="loader-container">
+        <img src="images/loader.gif" alt="">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
+
